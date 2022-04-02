@@ -1,0 +1,97 @@
+@page {
+    size: auto;
+    /* auto is the initial value */
+    margin-top: 0mm;
+    /* this affects the margin in the printer settings */
+    margin-bottom: 0mm;
+    margin-left: 3mm;
+    margin-right: 3mm;
+}
+
+html,
+body {
+    -webkit-text-size-adjust: none;
+}
+
+.custom_button {
+    width: 100px;
+}
+
+.form_layout_row {
+    /* margin-bottom: 5px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: -8px;
+    display: flex;
+    flex-wrap: wrap; */
+    margin: -8px;
+    padding: -8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.layout_card {
+    margin: 5px;
+}
+
+.w1 {
+    width: 140px !important;
+    margin: 0;
+}
+
+.wfull {
+    width: 100% !important;
+}
+
+.w2 {
+    width: 390px;
+}
+
+.w3 {
+    width: 130px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+
+/* 显示滚动条 */
+
+.el-drawer.rtl {
+    overflow: auto;
+}
+
+
+/* 浏览器滚动条样式 */
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: rgb(201, 201, 202);
+    border-radius: 8px;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(162, 162, 163);
+}
